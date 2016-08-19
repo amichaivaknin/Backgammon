@@ -1,0 +1,56 @@
+1)Mostly - Very good design: in fact- This is very similar to what I would do and expect.
+Minimalistic, compact and exposing a single interface- this is exactly what was intended.
+
+However, a few flaws are present:
+
+*) Lines 120-121 in the Program.cs file are a poor design decision you have made
+The UI should not care for the location of the bar and home tiles, nor should it know that the board is some kind of an array
+These lines, and the fact that the UI knows about the board break encapsulation and will make it impossible for you to change the game without breaking UI code.
+Which may be OK in an excercize, but what if the company you work for makes its money by selling this engine to other companies which develop the UI?
+It would not be a good day for your company, when you decide that you must restructure the code.
+
+Consider full and utter encapsulation when designing a system.
+A fully encapsulated game engine would not expose indexes, but expose special properties for these special values.
+It would expose an IBoard which is an IEnumerable<Triangle> and has these properties.
+
+2)The only thing which your code really lacks is readability and traceability, which is ok at this time, but consider this:
+I have examined your code, and were about to dock you points for not implementing the bar logic, since I could not find any reference to it.
+until I saw the words "dead bar" in the UI.
+
+Do consider that when you will look at something you wrote in a couple of months, or when your team mates will look at your code, they shouldn't be left to guessing and looking. 
+Your code should be telling a story, which helps readers understand it.
+This also helps when tracing bugs- since the tracer's mind will not be occupied with "what is this code doing?" and will instead be free to think of "I know what this does, but how does this help the bug manifest"?
+
+In order to make your code clearer, consider:
+
+*)Getting rid of magic numbers - a magic number is a constant without a meaningful name which is located in your code.
+It is magic in the sense that no one really has an idea as to how its value serves the purpose of the code.
+
+Example 1: "27" in Program.cs (line 120) may mean number of barred stones index to you, but it means nothing to me- and will mean nothing to you in a few months
+Example 2: "6" in Board.cs (line 110) means nothing to me.
+
+Consider this:
+
+private const int BarredWhiteIndex = 27;
+
+The constant can then be used in your code, and can be changed (if necessary) by applying a single change to the constant's value-
+Instead of taking the risk of forgetting to change it somewhere- which is even worse in your case since the UI is "aware" of this special value.
+
+
+*)Shortening long boolean expressions into shorter ones which describe the condition being checked
+Example: Board.cs (line 60):
+
+return sum==15 &&GameBoard[from] > 0 && ((from + first) >= 24 || (from + second >= 24));
+
+Could be :
+
+var meaningfulName1 = sum==15;
+var meaningfulName2 = GameBoard[from] > 0;
+var meaningfulName3 = from + first) >= 24;
+var meaningfulName4 = from + second >= 24;
+
+return meaningfulName1 && meaningfulName2  && (meaningfulName3  || meaningfulName4 );
+
+Which would be a lot clearer and easier to understand, as well as debug, since each variable can now be examined on its own to see if its name meets the expression outcome according to the parameters
+
+3)Unfortunately your game does not work- it throws an exception when trying to move.

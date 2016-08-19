@@ -6,3 +6,11 @@ C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\C
 C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\ConsoleBackgammon\obj\Debug\ConsoleBackgammon.csprojResolveAssemblyReference.cache
 C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\ConsoleBackgammon\obj\Debug\ConsoleBackgammon.exe
 C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\ConsoleBackgammon\obj\Debug\ConsoleBackgammon.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\bin\Debug\ConsoleBackgammon.exe.config
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\obj\Debug\ConsoleBackgammon.exe
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\obj\Debug\ConsoleBackgammon.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\bin\Debug\ConsoleBackgammon.exe
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\bin\Debug\ConsoleBackgammon.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\bin\Debug\BackgammonLogic.dll
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\bin\Debug\BackgammonLogic.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\ConsoleBackgammon\obj\Debug\ConsoleBackgammon.csprojResolveAssemblyReference.cache

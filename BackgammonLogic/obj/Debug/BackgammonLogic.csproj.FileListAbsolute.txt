@@ -3,3 +3,8 @@ C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\B
 C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\BackgammonLogic\obj\Debug\BackgammonLogic.csprojResolveAssemblyReference.cache
 C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\BackgammonLogic\obj\Debug\BackgammonLogic.dll
 C:\Users\Ami\Documents\Visual Studio 2015\Projects\codeValue\BackgammonAmichai\BackgammonLogic\obj\Debug\BackgammonLogic.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\BackgammonLogic\bin\Debug\BackgammonLogic.dll
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\BackgammonLogic\bin\Debug\BackgammonLogic.pdb
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\BackgammonLogic\obj\Debug\BackgammonLogic.csprojResolveAssemblyReference.cache
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\BackgammonLogic\obj\Debug\BackgammonLogic.dll
+D:\git\codevalue\advanced-net-course\home-assignments\Backgammon\Amihai Vaknin\Backgammon\BackgammonLogic\obj\Debug\BackgammonLogic.pdb
